@@ -34,9 +34,15 @@ class App extends Component {
         <div id="author">
          {this.state.randomQuote.author}
         </div>
-        <div id="new-quote">
-          <input type="button" onClick={this.onClickRandomQuote} value="New Quote"/>
-        </div>
+        <footer>
+          <div id="new-quote">
+            <input type="button" onClick={this.onClickRandomQuote} value="New Quote"/>
+          </div>
+          <div>
+            <input type="button" value="Tweet"/>
+          </div>
+        </footer>
+        
       </div>
     );
   }
