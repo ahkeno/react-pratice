@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Booklist from './components/booklist/booklist';
+// Mock Data
+import Books from './mock/data/books.json';
 
 function App() {
+  console.log("I am mock data: ", Books);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Header */}
+      {/* Login Detail - username  */}
+      {/* Menu - Home .... */}
+      {/* End of Header */}
+      {/* Dashborad */}
+      <Booklist />
     </div>
   );
 }

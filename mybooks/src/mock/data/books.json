@@ -1,0 +1,23 @@
+[{
+    "title"           : "title",
+    "isbn10"          : "isbn10",
+    "isbn13"          : "isbn13",
+    "country_code"    : "country_code",
+    "image_url"       : "image_url",
+    "small_image_url" : "small_image_url",
+    "publisher"       : "publisher",
+    "description"     : "description",
+    "authors"         : "authors"
+  },
+  {
+    "title"           : "title",
+    "isbn10"          : "isbn10",
+    "isbn13"          : "isbn13",
+    "country_code"    : "country_code",
+    "image_url"       : "image_url",
+    "small_image_url" : "small_image_url",
+    "publisher"       : "publisher",
+    "description"     : "description",
+    "authors"         : "authors"
+  }
+]
