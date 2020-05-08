@@ -4,18 +4,30 @@ import styles from './booklist.module.scss';
 import Book from './../book/book';
 
 class booklist extends Component{
-  componentDidMount(){
-
-  }
+  componentDidMount = (props) => {
+    console.log(this.props.booklist);
+  };
   render(){
-    return(<div>
+    
+    return(
+      <div>
       <h2>My Books</h2>
-      <Book/>
+      {this.props.booklist.map((book, index) => (
+        <div key={index}>
+          <Book book={book}/>
+        </div>
+        
+      ))
+
+      }
+      
       </div>)
   }
 }
 
-// booklist.propTypes = {};
+ booklist.propTypes = {
+  booklist: PropTypes.array.isRequired,
+ };
 
 // booklist.defaultProps = {};
 
